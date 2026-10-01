@@ -1,0 +1,20 @@
+SOULSTORY - FRONTEND
+
+Archivos incluidos:
+- index.html
+- styles.css
+- app.js
+
+Usar integrado con el backend:
+1. Inicia SoulStory API.
+2. Abre http://localhost:8080
+
+Usar este frontend servido por separado:
+1. Inicia SoulStory API en http://localhost:8080.
+2. Extrae los archivos y abre una terminal dentro de esta carpeta.
+3. Ejecuta: python -m http.server 4200
+4. Abre http://localhost:4200
+
+La API de desarrollo usa http://localhost:8080/api cuando el frontend se sirve
+en el puerto 4200. Para otro host, define window.SOULSTORY_API_URL antes de
+cargar app.js, por ejemplo: http://localhost:8080/api.
